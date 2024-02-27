@@ -1,0 +1,173 @@
+main {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: #dcc7be;
+}
+
+section h1 {
+    margin-bottom: 1rem;
+}
+
+section h2 {
+    margin-bottom: 1.5rem;
+}
+
+.subtitle {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 40vw;
+    height: calc(100vh - 8rem);
+}
+
+#newsletter-form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+fieldset {
+    border-radius: 8px;
+    border: 3px solid #0b4f6c;
+    height: calc(100vh - 20rem);
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    row-gap: 5px;
+}
+
+legend {
+    font-size: 1.5rem;
+    margin-left: 20px;
+    word-spacing: 2px;
+    padding: 0 5px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    height: 2rem;
+    border-radius: 5px;
+    border: 1px solid #0b4f6c;
+    padding: 10px;
+}
+
+.text-input::placeholder {
+    font-style: italic;
+}
+
+.name-input-span {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.name-input {
+    flex-grow: 2;
+}
+
+textarea {
+    border-radius: 5px;
+    padding: 10px;
+    resize: vertical;
+    min-width: 100%;
+    max-height: 50vh;
+    min-height: 10vh;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+#submit {
+    height: 2.5rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-color: #7fc6a4;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    border-radius: 50px;
+    color: black;
+}
+
+#submit:hover {
+    scale: 1.05;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+}
+
+#submit:active {
+    scale: 0.95;
+}
+
+fieldset {
+    height: max-content;
+}
+
+
+@media screen and (max-width: 850px) {
+
+    label {
+        font-size: 0.95rem;
+    }
+
+    textarea {
+        border-radius: 5px;
+        padding: 10px;
+        resize: vertical;
+        min-width: 100%;
+        max-height: 30vh;
+        margin-bottom: 15px;
+    }
+    
+    img {
+        display: none;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+
+    fieldset {
+        row-gap: 0.5rem;
+    }
+
+    fieldset > p {
+        font-size: 0.95rem;
+        margin-bottom: 5px;
+    }
+
+    .header-text {
+        margin-top: 1rem;
+    }
+
+    form {
+        margin-bottom: 50px;
+    }
+    
+    .name-input-span {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 8px;
+    }
+    
+    .name-input-span > input {
+        width: 100%;
+    }
+
+}

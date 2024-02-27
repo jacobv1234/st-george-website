@@ -1,0 +1,58 @@
+<header>
+        <h2><a href="/">M20</a></h2>
+        <nav>
+            <ul>
+                <li class="not-goals-link"><a href="/">Home</a></li>
+                <li class="not-goals-link"><a href="/about">About</a></li>
+                <li class="current-page"><span id="goals">Goals</span>
+                    <ul class="sub hidden-nav">
+                        <li><a href="/climate-action">Climate Action</a></li>
+                        <li><a href="/clean-and-sustainable-energy">Clean and Sustainable Energy</a></li>
+                        <li><a href="/life-under-the-sea">Life Under the Sea</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="title-div">
+        <h1 id="content-title">Life Under The Sea</h1>
+    </div>
+
+    <main>
+
+        <div class="grid-11 text-grid">
+            <h4><strong>Conservation and Sustainable use of the oceans</strong></h4>
+            <p>The Ocean is intrinsic to our life on earth.
+                Covering three-quarters of the Earth’s surface, contain 97 percent of the Earth’s water,
+                and represent 99 percent of the living space on the planet by volume.</p>
+        </div>
+
+        <div class="grid-12 img-grid">
+            <img src="images/ocean-garbage.jpg">
+        </div>
+
+        <div class="grid-21 img-grid">
+            <img src="images/ocean-life.jpg">
+        </div>
+        <div class="grid-22 text-grid">
+            <h4><strong>Health of the oceans is connected to our Health</strong></h4>
+            <p>The health of the ocean is intimately tied to our health.
+                The diversity of species found in the ocean offers great promise for pharmaceuticals.</p>
+        </div>
+        <div class="grid-31 text-grid last-text-grid">
+            <h4><strong>Achieving sustainability</strong></h4>
+            <p>For open ocean and deep sea areas, sustainability can be achieved only through increased international
+                cooperation. Establishing complete and
+                effective systems of government-protected areas should be pursued to conserve
+                bio-diversity and ensure a sustainable future.<br><br></p>
+        </div>
+        <div class="grid-32 img-grid">
+            <img src="images/ocean-sustainability.jpg">
+        </div>
+
+    </main>
+
+    <footer>
+        <p><a href="/newsletter">Sign Up To Our Newsletter</a> | © M20 MMXXIII</p>
+    </footer>

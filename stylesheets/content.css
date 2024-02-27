@@ -1,0 +1,161 @@
+h1 {
+    font-size: 5rem;
+    color: white;
+    -webkit-text-stroke-width: 5px;
+    letter-spacing: 3px;
+}
+
+.title-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    width: 100vw;
+    border-bottom: 3px solid black;
+    text-transform: uppercase;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.125);
+    background-blend-mode: color;
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(3, 40vh);
+    margin-bottom: 3rem;
+}
+
+.text-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1.5rem;
+    overflow-y: none;
+}
+
+.text-grid h4 {
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    width: 90%;
+    font-size: 2.5rem;
+}
+
+.text-grid p {
+    font-size: 1.9rem;
+    height: 50%;
+    width: 90%;
+}
+
+.img-grid img {
+    width: 100%;
+    height: 100%;
+}
+
+.img-grid:nth-child(odd) {
+    border-right: 1.5px solid #1f271b;
+}
+
+.img-grid:nth-child(even) {
+    border-left: 1.5px solid #1f271b;
+}
+
+.text-grid,
+.img-grid {
+    border-bottom: 2px solid #1f271b;
+}
+
+.img-grid:last-child,
+.last-text-grid {
+    border-bottom: 0;
+}
+
+/* Medium Sized Screens */
+@media screen and (max-width: 1300px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    .title-div {
+        height: 18rem;
+    }
+
+    main {
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(3, 35vh);
+    }
+
+    .text-grid {
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+    }
+
+    .text-grid h4 {
+        font-size: 1.7rem;
+        line-height: 1.2;
+    }
+
+    .text-grid p {
+        font-size: 1.5rem;
+        overflow-y: scroll;
+    }
+
+    .text-grid p::-webkit-scrollbar {
+        width: 0;
+    }
+
+}
+
+/* Small Sized Screens */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    .title-div {
+        height: 12rem;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-grid {
+        height: fit-content;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: none;
+        border-bottom: 3px solid #1f271b;
+        margin: 0;
+    }
+
+    .img-grid {
+        display: none;
+    }
+
+    .text-grid h4 {
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+
+    .text-grid p {
+        font-size: 1.5rem;
+    }
+
+    .text-grid {
+        color: white;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: rgba(0, 0, 0, 0.356);
+        background-blend-mode: color;
+    }
+
+    .last-text-grid {
+        border-bottom: 0px;
+    }
+
+}

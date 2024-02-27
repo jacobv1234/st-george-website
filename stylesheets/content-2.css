@@ -1,0 +1,21 @@
+.title-div {
+    background-image: url('../images/wind-turbines.jpg');
+}
+
+@media screen and (max-width: 768px) {
+
+    .grid-11 {
+        background-image: url('../images/nasa-earth.jpg');
+        overflow: hidden;
+    }
+
+    .grid-22 {
+        background-image: url('../images/campfire.jpg');
+        overflow: hidden;
+    }
+
+    .grid-31 {
+        background-image: url('../images/solarpanels.jpg');
+        overflow: hidden;
+    }
+}

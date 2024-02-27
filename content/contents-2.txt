@@ -1,0 +1,60 @@
+<header>
+        <h2><a href="/">M20</a></h2>
+        <nav>
+            <ul>
+                <li class="not-goals-link"><a href="/">Home</a></li>
+                <li class="not-goals-link"><a href="/about">About</a></li>
+                <li class="current-page"><span id="goals">Goals</span>
+                    <ul class="sub hidden-nav">
+                        <li><a href="/climate-action">Climate Action</a></li>
+                        <li><a href="/clean-and-sustainable-energy">Clean and Sustainable Energy</a></li>
+                        <li><a href="/life-under-the-sea">Life Under the Sea</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="title-div">
+        <h1 id="content-title">Clean and Sustainable Energy</h1>
+    </div>
+
+    <main>
+        
+        <div class="grid-11 text-grid">
+            <h4><strong>Providing sustainable power to the world</strong></h4>
+            <p>One of the main factors contributing to climate change is greenhouse gases
+                released from burning fossil fuels. Thus, one of the core aims of the goal
+                is to substantially increase the proportion of the global energy mix that
+                comes from renewable sources.</p>
+        </div>
+
+        <div class="grid-12 img-grid">
+            <img src="images/nasa-earth.jpg">
+        </div>
+
+        <div class="grid-21 img-grid">
+            <img src="images/campfire.jpg">
+        </div>
+        <div class="grid-22 text-grid">
+            <h4><strong>But it's more than just renewable energy</strong></h4>
+            <p>Many people across the globe still use polluting fuels for their cooking,
+                resulting both in the release of greenhouse gases and food that is less healthy.
+                According to WHO, electrical stoves are much safer for use, due to the
+                production of harmful gases from cooking with natural gas.</p>
+        </div>
+        <div class="grid-31 text-grid last-text-grid">
+            <h4><strong>1 in 10 people still have no access to electricity</strong></h4>
+            <p>Providing this basic commodity for countries that do not have enough, such as 
+                the least developed countries and developing island nations, will provide vital 
+                jobs for their economy and assist in their part on the global stage.<br><br></p>
+        </div>
+        <div class="grid-32 img-grid">
+            <img src="images/solarpanels.jpg">
+        </div>
+
+    </main>
+
+    <footer>
+        <p><a href="/newsletter">Sign Up To Our Newsletter</a> | © M20 MMXXIII</p>
+    </footer>
