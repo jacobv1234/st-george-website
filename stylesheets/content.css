@@ -1,6 +1,6 @@
 h1 {
     font-size: 5rem;
-    color: white;
+    color: #fefefe;
     -webkit-text-stroke-width: 5px;
     letter-spacing: 3px;
 }
@@ -11,7 +11,7 @@ h1 {
     align-items: center;
     height: 20rem;
     width: 100vw;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid #7413dc;
     text-transform: uppercase;
     background-repeat: no-repeat;
     background-size: cover;
@@ -55,16 +55,16 @@ main {
 }
 
 .img-grid:nth-child(odd) {
-    border-right: 1.5px solid #1f271b;
+    border-right: 1.5px solid #7413dc;
 }
 
 .img-grid:nth-child(even) {
-    border-left: 1.5px solid #1f271b;
+    border-left: 1.5px solid #7413dc;
 }
 
 .text-grid,
 .img-grid {
-    border-bottom: 2px solid #1f271b;
+    border-bottom: 2px solid #7413dc;
 }
 
 .img-grid:last-child,
@@ -129,7 +129,7 @@ main {
         padding-top: 10px;
         padding-bottom: 10px;
         border: none;
-        border-bottom: 3px solid #1f271b;
+        border-bottom: 3px solid #7413dc;
         margin: 0;
     }
 

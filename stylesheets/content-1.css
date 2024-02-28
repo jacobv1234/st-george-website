@@ -1,22 +1,22 @@
 .title-div {
-    background-image: url('../images/climate-action.jpg');
+    background-image: url('../images/a.jpg');
     background-position: center;
 }
 
 @media screen and (max-width: 768px) {
 
     .grid-11 {
-        background-image: url('../images/climate-change-impact.jpg');
+        background-image: url('../images/a.jpg');
         overflow: hidden;
     }
 
     .grid-22 {
-        background-image: url('../images/human-induced-changes.jpg');
+        background-image: url('../images/a.jpg');
         overflow: hidden;
     }
 
     .grid-31 {
-        background-image: url('../images/global-impact.jpg');
+        background-image: url('../images/a.jpg');
         overflow: hidden;
     }
 }

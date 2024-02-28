@@ -1,22 +1,22 @@
 .title-div {
-    background-image: url('../images/ocean-backgroud.jpg');
+    background-image: url('../images/a.jpg');
     background-position: center;
 }
 
 @media screen and (max-width: 768px) {
 
     .grid-11 {
-        background-image: url('../images/ocean-life.jpg');
+        background-image: url('../images/a.jpg');
         overflow: hidden;
     }
 
     .grid-22 {
-        background-image: url('../images/ocean-garbage.jpg');
+        background-image: url('../images/a.jpg');
         overflow: hidden;
     }
 
     .grid-31 {
-        background-image: url('../images/ocean-sustainability.jpg');
+        background-image: url('../images/a.jpg');
         overflow: hidden;
     }
 }
