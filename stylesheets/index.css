@@ -39,11 +39,11 @@ section li:hover {
 
 main a {
     text-decoration: none;
-    color: #00a794;
+    color: #006ddf;
 }
 
 main a:visited {
-    color: #00a794;
+    color: #006ddf;
 }
 
 @media screen and (max-width: 900px) {

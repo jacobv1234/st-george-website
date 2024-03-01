@@ -47,7 +47,7 @@ main {
     font-size: 1.8rem;
     font-weight: bold;
     padding-bottom: 5px;
-    border-bottom: 5px solid #0b4f6c;
+    border-bottom: 5px solid #e22e12;
     transition: border-width 300ms ease-in-out;
 }
 
