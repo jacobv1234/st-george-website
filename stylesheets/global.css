@@ -169,4 +169,8 @@ a:visited {
     .hidden-nav {
         transform: translateX(100vw) !important;
     }
+
+    h1 {
+        font-size: 3rem;
+    }
 }
