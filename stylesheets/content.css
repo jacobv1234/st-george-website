@@ -166,12 +166,13 @@ main {
     .text-grid h4 {
         font-size: 1.5rem;
         line-height: 1.5;
-        top: 0%;
+        top: 0;
     }
 
     .text-grid p {
         font-size: 1.5rem;
         overflow: hidden;
+        top: 0;
     }
 
 
