@@ -5,6 +5,26 @@ h1 {
     letter-spacing: 3px;
 }
 
+.grid-12 {
+    border-left: 1.5px solid #7413dc;
+    border-bottom: 1.5px solid #7413dc;
+}
+
+.grid-11 {
+    border-right: 1.5px solid #7413dc;
+    border-bottom: 1.5px solid #7413dc;
+}
+
+.grid-22 {
+    border-left: 1.5px solid #7413dc;
+    border-top: 1.5px solid #7413dc;
+}
+
+.grid-21 {
+    border-right: 1.5px solid #7413dc;
+    border-top: 1.5px solid #7413dc;
+}
+
 .title-div {
     display: flex;
     justify-content: center;
@@ -18,12 +38,14 @@ h1 {
     background-color: rgba(0, 0, 0, 0.125);
     background-blend-mode: color;
     text-align: center;
+    background-image: url('../images/scouthut.jpg');
+    background-position: center;
 }
 
 main {
     display: grid;
     grid-template-columns: repeat(2, 50%);
-    grid-template-rows: repeat(3, 40vh);
+    grid-template-rows: repeat(2, 40vh);
     margin-bottom: 3rem;
 }
 
@@ -37,16 +59,20 @@ main {
 }
 
 .text-grid h4 {
+    position: relative;
     text-decoration: underline;
     text-underline-offset: 0.5rem;
     width: 90%;
     font-size: 2.5rem;
+    top: -10%;
 }
 
 .text-grid p {
+    position: relative;
     font-size: 1.9rem;
     height: 50%;
     width: 90%;
+    top: -10%;
 }
 
 .img-grid img {
@@ -54,22 +80,24 @@ main {
     height: 100%;
 }
 
-.img-grid:nth-child(odd) {
-    border-right: 1.5px solid #7413dc;
+#church_link {
+    color: #23a950;
+    text-decoration: underline;
+}
+#church_link:visited {
+    color: #23a950;
+    text-decoration: underline;
 }
 
-.img-grid:nth-child(even) {
-    border-left: 1.5px solid #7413dc;
+#smalltext {
+    font-size: 1.5rem;
 }
 
-.text-grid,
-.img-grid {
-    border-bottom: 2px solid #7413dc;
+#smalltext2 {
+    font-size: 1.15rem;
 }
-
-.img-grid:last-child,
-.last-text-grid {
-    border-bottom: 0;
+#smalltext3 {
+    font-size: 1.65rem;
 }
 
 /* Medium Sized Screens */
@@ -84,7 +112,7 @@ main {
 
     main {
         grid-template-columns: repeat(2, 50%);
-        grid-template-rows: repeat(3, 35vh);
+        grid-template-rows: repeat(2, 35vh);
     }
 
     .text-grid {
@@ -108,6 +136,8 @@ main {
     }
 
 }
+
+
 
 /* Small Sized Screens */
 @media screen and (max-width: 768px) {
@@ -133,10 +163,6 @@ main {
         margin: 0;
     }
 
-    .img-grid {
-        display: none;
-    }
-
     .text-grid h4 {
         font-size: 1.5rem;
         line-height: 1.5;
@@ -144,18 +170,36 @@ main {
 
     .text-grid p {
         font-size: 1.5rem;
+        overflow: hidden;
     }
 
-    .text-grid {
-        color: white;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-color: rgba(0, 0, 0, 0.356);
-        background-blend-mode: color;
+
+
+    .img-grid {
+        background-color: #7413dc;
     }
 
     .last-text-grid {
         border-bottom: 0px;
+    }
+
+    .grid-22 {
+        border-top: 1.5px solid #7413dc;
+    }
+    
+    .grid-21 {
+        border-bottom: 1.5px solid #7413dc;
+    }
+
+    #smalltext {
+        font-size: 1.5rem;
+    }
+    
+    #smalltext2 {
+        font-size: 1.5rem;
+    }
+    #smalltext3 {
+        font-size: 1.5rem;
     }
 
 }
