@@ -46,6 +46,11 @@ main a:visited {
     color: #006ddf;
 }
 
+main p {
+    color: #23a950;
+    margin-top: 3rem;
+}
+
 @media screen and (max-width: 900px) {
 
     main {
