@@ -35,6 +35,7 @@ section li:hover {
     width: 40vw;
     height: calc(100vh - 8rem);
     position: relative;
+    object-fit: cover;
 }
 
 main a {
