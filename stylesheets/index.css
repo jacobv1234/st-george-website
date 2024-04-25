@@ -56,7 +56,9 @@ main p {
 
     main {
         height: calc(100vh - 8rem);
-        padding: 3rem 5px;
+        padding: 0 5px;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
     }
 
     #right-img {
