@@ -56,7 +56,7 @@ main p {
 
     main {
         height: calc(100vh - 8rem);
-        padding: 0 5px;
+        padding: 3rem 5px;
     }
 
     #right-img {
